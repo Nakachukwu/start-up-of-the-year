@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    background-image: url(milkyway.jpeg);
+}
+
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-self: auto;
+
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 2em;
+    border-bottom: 2px solid paleturquoise;
+    border-right: 2px solid;
+    width: 400px;
+    text-align: center;
+    border-right: 2px solid paleturquoise;
+    box-shadow: 4px 3px 4px 3px #888888;
+    margin-top: 10px;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+img {
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
